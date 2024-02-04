@@ -1,12 +1,18 @@
 # What is HazeXpert? 
 
-HazeXpert is a software that works on an AIML-based De-hazing and De-smoking algorithm which enables the firefighters to see clearer through thr smoke, resulting in faster response time. Since every second is valuable in situations like these, a faster response could effectively save someone’s life.
+HazeXpert is a software that works on an AIML-based De-hazing and De-smoking algorithm which enables the firefighters to see clearer through thr smoke, resulting in faster response time. Since every second is valuable in such situations, a faster response could effectively save someone’s life.
+
 
 # Tech Stack 
-- HTML
+- React 
 - TailwindCSS
 - Javascript
 - Python
+- Numpy
+- Panda
+- Vite
+- Tensorflow
+- OpenCV
 
 # Key Features
 - Data Authentication
