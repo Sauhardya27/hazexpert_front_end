@@ -17,7 +17,7 @@ HazeXpert is a software that works on an AIML-based De-hazing and De-smoking alg
 # Snapshots
 - responsive and user-friendly UI
 
-![Hazexpert(1)](https://github.com/sagnik-p/HazeXpert/assets/113929010/46de62de-ec3e-47f2-bf8e-14edcdcb80d1)
+![Hazexpert(1)](https://github.com/Sauhardya27/hazexpert_front_end/blob/main/src/assets/Landing%20Page(1).png)
 
 - Input 
 
