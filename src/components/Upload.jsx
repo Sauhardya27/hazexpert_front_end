@@ -15,7 +15,7 @@ const Upload = () => {
 		bgfileRef.current.click();
 	};
 	return (
-		<div className='w-[308px] h-[300px] xs:w-[513px] xs:h-[316px] sm:w-[698px] sm:h-[430px] bg-gradient-to-r from-purpleG to to-whiteG relative sm:left-[42rem] sm:bottom-[47rem] rounded-xl p-[2px] mt-10 xs:mt-0 mx-2 xs:mx-0 -mb-[35rem]'>
+		<div className='w-[308px] h-[300px] xs:w-[513px] xs:h-[316px] sm:w-[698px] sm:h-[430px] bg-gradient-to-r from-purpleG to to-whiteG relative sm:left-[42rem] sm:bottom-[47rem] rounded-xl p-[2px] ml-8 md:ml-0 mt-10 xs:mt-0 mx-2 xs:mx-0 -mb-[35rem]'>
 			<div className="bg-black w-[100%] h-[100%] rounded-xl items-center justify-center flex flex-col pt-10 xs:pt-5 sm:pt-0">
 				<div id="fileContainer" ref={fileContainerRef} onClick={handleContainerClick} className="w-[90%] py-6 xs:py-0 xs:w-[55%] xs:h-[33%] sm:w-[88%] sm:h-[55%] border-dashed border-purpleG border-2 rounded-xl items-center justify-center flex flex-col pt-5 cursor-pointer">
 					<img src={cloud} alt="upload" className="w-[10%] sm:w-[20%] relative bottom-3 sm:bottom-5" />

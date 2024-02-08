@@ -3,7 +3,7 @@ import styles, { layout } from '../style';
 
 const FeatureCard = ({ icon, title, content, index }) => (
 	<div className='flex flex-col md:flex-row md:space-x-24 -space-y-20'>
-		<div className='flex flex-col w-full'>
+		<div className='flex flex-col w-full ml-5 md:ml-0'>
 			<h1 className={`font-poppins font-semibold text-white text-3xl leading-10 md:leading-[23px] -mb-10 md:mb-0 relative -left-72 md:left-0 md:mt-0 ${index !== 0 ? "mt-28":"mt-0"}`}>{title}</h1>
 			<div className={`bg-gradient-to-r from-purpleG to to-whiteG w-[280px] h-[340px] ss:w-[380px] ss:h-[260px] md:w-[680px] md:h-[260px] p-[2px] rounded-lg my-20 relative -left-72 ${index % 2 === 0 ? "md:right-[400px]":"unset"} ${index % 2 === 0 ? "unset":"md:left-[300px]"}`}>
 				<div className="bg-black max-w-[50rem] w-[100%] h-[100%] rounded-lg flex flex-1 flex-col justify-center items-center">
