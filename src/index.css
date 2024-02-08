@@ -116,8 +116,8 @@
   background: var(--black-gradient);
 }
 
-.blue__gradient {
-  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+.purple__gradient {
+  background: linear-gradient(180deg, rgba(114, 65, 252, 0) 0%, #331b75 100%);
   filter: blur(123px);
 }
 
@@ -129,4 +129,13 @@
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+}
+
+.bg-purple-gradient {
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -5.56%,
+    rgb(70, 55, 110)-58.47%,
+    rgb(36, 20, 78)71.61%
+  );
 }

@@ -26,6 +26,11 @@ import ff1 from "./ff1.svg";
 import ff2 from "./ff2.svg";
 import ff3 from "./ff3.svg";
 import demo from "./demo.svg";
+import facebook from "./facebook.svg";
+import linkedin from "./linkedin.svg";
+import instagram from "./instagram.svg";
+import x from "./x.svg";
+
 
 
 
@@ -58,4 +63,8 @@ export {
   ff2,
   ff3,
   demo,
+  facebook,
+  instagram,
+  linkedin,
+  x,
 };

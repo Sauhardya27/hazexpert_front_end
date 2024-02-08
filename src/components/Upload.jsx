@@ -20,8 +20,8 @@ const Upload = () => {
 				<div id="fileContainer" ref={fileContainerRef} onClick={handleContainerClick} className="w-[90%] py-6 xs:py-0 xs:w-[55%] xs:h-[33%] sm:w-[88%] sm:h-[55%] border-dashed border-purpleG border-2 rounded-xl items-center justify-center flex flex-col pt-5 cursor-pointer">
 					<img src={cloud} alt="upload" className="w-[10%] sm:w-[20%] relative bottom-3 sm:bottom-5" />
 					<p className="text-dimWhite mb-0 sm:mb-5 xs:text-sm sm:text-base">Supports JPG, PNG, Mp4</p>
-					<p className="text-purple xs:text-sm sm:text-base">Upload your files here! Or <label ref={bgfileRef} for="bgfile" title="Upload a file" class="relative z-20 cursor-pointer text-white">Browse</label></p>
-					<input accept=".jpg, .jpeg, .png, .svg, .webp, .mp4" class="absolute z-10 opacity-0 cursor-pointer" type="file" name="bgfile" id="bgfile"></input>
+					<p className="text-purple xs:text-sm sm:text-base">Upload your files here! Or <label ref={bgfileRef} for="bgfile" title="Upload a file" className="relative z-20 cursor-pointer text-white">Browse</label></p>
+					<input accept=".jpg, .jpeg, .png, .svg, .webp, .mp4" className="absolute z-10 opacity-0 cursor-pointer" type="file" name="bgfile" id="bgfile"></input>
 				</div>
 				<Button />
 			</div>

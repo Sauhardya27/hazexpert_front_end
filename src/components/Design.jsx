@@ -1,7 +1,7 @@
 import { circle, Line, Line2, round1, round2, Gradient } from "../assets";
 
 const Design = () => (
-	<div className="sm:inline-block hidden">
+	<div className="md:inline-block hidden">
       <img src={circle} alt="circle" className="w-[30px] h-[30px] relative bottom-40 left-[6.7rem]" />
       <img src={Line} alt="line" className="h-[280px] relative left-[7.5rem] bottom-40" />
       <img src={Gradient} alt="gradient" className="w-[70px] relative bottom-[10.2rem] left-[5.5rem]" />
