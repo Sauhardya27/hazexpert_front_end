@@ -4,7 +4,7 @@ import { Navbar, Hero, Design, Design1, Upload, Step, Features, Footer } from ".
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
     <div className="absolute z-[1] w-[60%] h-[60%] bottom-[75%] right-[75%] rounded-full purple__gradient" />
-    <div className="bg-[url('src/assets/bgImg.svg')] z-[0] lg:w-full object-contain lg:object-none h-full lg:h-auto">
+    <div className="bg-[url('./src/assets/bgImg.svg')] z-[0] lg:w-full object-contain lg:object-none h-full lg:h-auto">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
