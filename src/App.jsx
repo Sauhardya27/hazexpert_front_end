@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import styles from "./style";
 import { Navbar, Hero, Design, Design1, Upload, Step, Features, Footer } from "./components";
-import About from './About.jsx';
+import About from './About';
 
 const App = () => (
   <BrowserRouter>
