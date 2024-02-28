@@ -1,6 +1,6 @@
 import styles from "./style";
 import Navbar from "./components/Navbar";
-import Ab from "/home/muskan/Documents/hazexpert_front_end-main/src/components/Ab.jsx";
+import Ab from "./components/Ab.jsx";
 import Footer from "./components/Footer";
 
 
