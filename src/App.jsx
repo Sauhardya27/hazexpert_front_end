@@ -1,7 +1,13 @@
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import styles from "./style";
 import { Navbar, Hero, Design, Design1, Upload, Step, Features, Footer } from "./components";
+import About from '/home/muskan/Documents/hazexpert_front_end-main/src/About.jsx';
 
 const App = () => (
+  <BrowserRouter>
+  <Routes>
+      <Route path="/" element={
   <div className="bg-primary w-full overflow-hidden">
     <div className="absolute z-[1] w-[60%] h-[60%] bottom-[75%] right-[75%] rounded-full purple__gradient" />
     <div className="bg-[url('./assets/bgImg.png')] z-[0] lg:w-full object-contain lg:object-none h-full lg:h-auto">
@@ -49,6 +55,10 @@ const App = () => (
       </div>
     </div>
   </div>
+  }/>
+  <Route path="/about" element={<About />} />
+   </Routes>
+    </BrowserRouter>
 );
 
 export default App
