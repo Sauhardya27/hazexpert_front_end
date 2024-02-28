@@ -1,6 +1,6 @@
 import styles from "./style";
 import Navbar from "./components/Navbar";
-import Ab from "./components/Ab.jsx";
+import Ab from "./components/Ab";
 import Footer from "./components/Footer";
 
 
