@@ -16,9 +16,16 @@ const About = () => {
        <div className={`${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Ab />
+          
         </div>
       </div>
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Footer />
+      </div>
+    </div>
   </div>
+
 );
 }
 
